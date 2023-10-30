@@ -1,0 +1,20 @@
+{
+  "name": "helpers",
+  "version": "0.0.0",
+  "description": "Utilities",
+  "author": "Mofope Ojosh <mofopeojosh@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "/src/index.ts",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "generate:graphql": "graphql-codegen --config codegen.yml",
+    "test": "node ./__tests__/utils.test.js"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "components",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Reusable components",
+  "author": "Mofope Ojosh <mofopeojosh@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "node ./__tests__/components.test.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.4.1",
+    "helpers": "0.0.0",
+    "vue": "^3.3.4",
+    "vue-demi": "^0.14.6"
+  },
+  "main": "dist/components.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.1",
+    "@storybook/addon-interactions": "^7.5.1",
+    "@storybook/addon-links": "^7.5.1",
+    "@storybook/blocks": "^7.5.1",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/vue3": "^7.5.1",
+    "@storybook/vue3-vite": "^7.5.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.6.0",
+    "vue-tsc": "^1.8.5"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  }
+}
